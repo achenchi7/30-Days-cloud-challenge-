@@ -6,7 +6,7 @@ Input the name you'd want to call your folder together with a backslash (/). For
 
 NOTE: Github does not allow for empty folders. At the bare minimum a markdown file should be there in your new folder
 
-2. ### Editing the name of a folder
+2. ### Editing the name of a folder(s)
 To edit the name of an already created folder, navigate to the file within the folder.
 In edit, mode, have your cursor before the first letter of your file then press backspace
 Edit your folder name in peace then commit the changes.
