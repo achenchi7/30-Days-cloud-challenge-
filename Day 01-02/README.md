@@ -12,3 +12,6 @@ The steps involved in setting up your AWS account are:
     - **Step 3** involves providing your credit card information. Do not be alarmed, you will not be charged unless you exceed your free tier provisions and/or your free tier period comes to an end.
     - **Step 4** involves confirmation of your identity by AWS either through text message or a call. Right of the bat, you can note the security redundancy that AWS offers.
     - **Step 5** finally. Select your preferred support plan. For learning and economic purposes 😂, I chose the Basic suppert-free.
+  
+## Setting up billing preferences and budget alerts
+AWS allows its customers to track their costs and anticipate upcoming costs at the end of a specified period. For this project, I chose to configure the **cost Budget* at a maximum spend of $10 per month. In addition to that, I will receive an alert when I reach 80% of my allocated budget. How efficient!!!
