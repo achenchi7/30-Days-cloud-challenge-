@@ -116,5 +116,6 @@ Next run `terraform plan`
 
 Finally, run `terraform apply`. If successful you should get a green light as shown below
 
-![image](
+![image](https://github.com/achenchi7/AWS-Projects-2023-2024/blob/main/images/terraform_apply.png)
+
 
