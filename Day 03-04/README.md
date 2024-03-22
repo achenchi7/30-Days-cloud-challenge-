@@ -107,7 +107,7 @@ variable "subnet_id" {
 ```
 ### Execution
 To launch your instance, run the code `terraform init` to initialize terraform.
-![image](D:/Terraform projects/Project2/code_output_images/terraform init.png)
+![image](https://github.com/achenchi7/AWS-Projects-2023-2024/blob/main/images/terraform%20init.png))
 
 Next run `terraform plan`
 
