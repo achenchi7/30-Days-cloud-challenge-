@@ -111,5 +111,10 @@ To launch your instance, run the code `terraform init` to initialize terraform.
 
 Next run `terraform plan`
 
+![image2](https://github.com/achenchi7/AWS-Projects-2023-2024/blob/main/images/terraform_plan.png)
+
+
 Finally, run `terraform apply`. If successful you should get a green light as shown below
+
+![image](
 
