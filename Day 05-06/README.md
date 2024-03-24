@@ -6,8 +6,8 @@ The procedure for launching an instance on the AWS management console is straigh
 ## Launch an EC2 instance using Terraform
 
 #### Specification:
-Region - US-east -1
-Availability zone - A random one will be selected by AWS within us-east-1. To specify an availability zone, add the preferred availability zone in the 'provider' section. (see the commented line)
+- Region - US-east -1
+- Availability zone - A random one will be selected by AWS within us-east-1. To specify an availability zone, add the preferred availability zone in the 'provider' section. (see the commented line)
 
 This is me being that "extra" kind of student. I recently discovered and learned how fun and easy it is to launch an EC2 instance on Terraform.
 The code snippets below show the process followed to create an EC2 instance:
