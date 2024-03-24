@@ -1,4 +1,4 @@
-# Task(s): Launch an EC2 instance with the free tier. For practice, launch a second AWS EC2 instance in a different availability zone and the SAME AWS region
+# Task(s): Launch an EC2 instance with the free tier.
 
 ## Launch an instance on the management console
 The procedure for launching an instance on the AWS management console is straightforward and has been well explained in this [article](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/option3-task1-launch-ec2-instance.html)
