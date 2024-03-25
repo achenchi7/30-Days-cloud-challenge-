@@ -27,5 +27,7 @@ resource "aws_s3_bucket" "my_terraform_bucket100" {
 }
 ```
 To execute the block of code, run `terraform init` to initialize terraform, then run `terraform plan` which creates an execution plan, and lets you preview the changes that Terraform plans to make to your infrastructure and finally run `terraform apply` which  executes the actions proposed in the terraform plan.\
+![image](https://github.com/achenchi7/AWS-Projects-2023-2024/blob/main/images/s3_bucket.png)
+
 
 To verify that your bucket was successfully created, navigate to `S3` in your management console and under `buckets` on the left panel, you should see the bucket you have created. In my case, `myterraformbucket001`
