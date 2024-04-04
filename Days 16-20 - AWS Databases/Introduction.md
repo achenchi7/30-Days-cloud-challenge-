@@ -52,3 +52,27 @@ There are 6 database engines to choose from:
 - Secure
 - Inexpensive
 
+## High availability in Amazon RDS
+This is achieved by enabling Amazon RDS Muti-AZ.
+
+For redundancy, Amazon RDS creates a secondary copy of your database in another AZ. Amazon RDS uses the secondary copy of the database as a standby in case the primary fails.
+
+If that occurs, the standby database is automatically set as the primary database, and then either creates another standby database instance or demotes the previous primary DB to standby DB to keep the Multi-AZ configuration active.
+
+### Benefits of multi-AZ deployments
+- Enhanced durability
+- Increased availability
+- No administrative intervention
+
+## Amazon RDS Read Replicas
+A read replica is a special type of database instance created from a source database instance.
+
+Updates made to a source DB are asynchronously copied to the Read replica instance. This gives you the option of reducing the load on your source DB by routing the read queries to your RR instance.
+
+RR can also be manually promoted when needed to become stand-alone DB instances.
+
+## Use cases for Amazon RDS
+**1. Read heavy OLTP application**\
+In this online transaction processing (OLTP)application, Amazon RDS is used with a read replica, which is asynchronously updated.
+
+
