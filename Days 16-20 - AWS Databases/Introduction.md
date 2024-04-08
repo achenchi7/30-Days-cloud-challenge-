@@ -71,7 +71,7 @@ Updates made to a source DB are asynchronously copied to the Read replica instan
 
 RR can also be manually promoted when needed to become stand-alone DB instances.
 
-![Amazon RDS read replicas simple model](https://github.com/achenchi7/AWS-Projects-2023-2024/blob/main/images/Amazon%20RDS%20Read%20replicas.png)
+![Amazon RDS read replicas simple model](https://github.com/achenchi7/AWS-Projects-2023-2024/blob/main/images/Amazon%20RDS%20Read%20replicas%20(1).png)
 
 ## Use cases for Amazon RDS
 **1. Read heavy OLTP application**\
