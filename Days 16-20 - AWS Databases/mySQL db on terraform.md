@@ -33,3 +33,7 @@ To launch the db instance, run `terraform init` to initialize terraform,
 ![Terraform init](https://github.com/achenchi7/AWS-Projects-2023-2024/blob/main/images/terraform%20init.png)
 
 Next, run `terraform plan` which creates an execution plan, which lets you preview the changes that Terraform plans to make to your infrastructure.
+![Terraform plan](https://github.com/achenchi7/AWS-Projects-2023-2024/blob/main/images/terraform%20plan_db.png)
+
+Finally, run `terraform apply` to execute the changes laid out above. The process might take a few minutes depending on how complex your database is. Might be a good time to stretch your legs.
+
