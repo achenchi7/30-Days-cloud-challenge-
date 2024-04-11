@@ -47,6 +47,8 @@ The beautiful green light that your process was successful
 ![green light](https://github.com/achenchi7/AWS-Projects-2023-2024/blob/main/images/terra%20apply_db3.png)
 
 ## Confirmation
-To confirm further the creation of the database, navigate to your AWS management console and under RDS, you should see your database as did I mine.
+To confirm further the creation of the database, navigate to your AWS management console and under RDS, you should see your database as I mine.
+
+![db instance](https://github.com/achenchi7/AWS-Projects-2023-2024/blob/main/images/db%20instance%20on%20aws.png)
 
 
