@@ -37,3 +37,16 @@ Next, run `terraform plan` which creates an execution plan, which lets you previ
 
 Finally, run `terraform apply` to execute the changes laid out above. The process might take a few minutes depending on how complex your database is. Might be a good time to stretch your legs.
 
+![terraform apply](https://github.com/achenchi7/AWS-Projects-2023-2024/blob/main/images/terraform%20apply1.png)
+
+My database took 3m 30sec to be created
+
+![time taken](https://github.com/achenchi7/AWS-Projects-2023-2024/blob/main/images/terraform%20apply_db2.png)
+
+The beautiful green light that your process was successful
+![green light](https://github.com/achenchi7/AWS-Projects-2023-2024/blob/main/images/terra%20apply_db3.png)
+
+## Confirmation
+To confirm further the creation of the database, navigate to your AWS management console and under RDS, you should see your database as did I mine.
+
+
