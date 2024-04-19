@@ -55,5 +55,44 @@ It is a JSON data structure that maps the real-world infrastructure resources to
 6. `terraform output <variable-name>` - Prints out the specific output of the variable defined.\
 7. `terraform refresh` - Used to sync terraform with the real-world infrastructure. This command will only modify the state file and not the infrastructure.\
 8. `terraform graph` - Used to create a visual representation of the dependencies and a terraform configuration or an execution plan. The output of this command is a file with the format **dot**. To make it make sense, you can visualize this through an application like **graphviz**
-9. 
+
+## Version constraints
+This is applied if you desire to use a specific version of your required provider. By default, running `terraform init` downloads the latest version of your specified provider.\
+
+In cases where you want to use a specific provider, here is the syntax:\
+NB: The latest version of the provider **local** is 2.5.1. The code below will install version 2.5.0
+```
+terraform {
+  required_providers {
+    local = {
+      source = "hashicorp/local"
+      version = "2.5.0"
+    }
+  }
+}
+```
+
+# Remote state and state Locking
+As stated earlier, a terraform state file is created when terraform apply is run at least once in the configuration files. The benefits of the state file include:
+- Mapping configuration to the real world
+- Tracking metadata
+- Improves performance especially when working with different providers.
+
+The state file is stored and accessed in two ways:\
+a. **Local state file** - This is created in your local machine and specifically in the config directory you are working in.\
+          **Disadvantage** - Does not allow for collaboration within teams
+
+b. **Remote backend** - The state file is stored and accessed from a shared storage such as Google Cloud, S3 bucket, or Terraform Cloud.\
+          **Advantage**- It is secure and updates on the state file can easily be tracked
+
+### State Locking
+State locking is a built-in mechanism within a terraform state that prevents the state file from being updated simultaneously. If one individual is working on the state file, terraform automatically locks the file and prevents any further changes until the current changes have been implemented.
+
+## Terraform state commands
+The syntax is `terraform state [sub-command] [arguments]`
+The various commands are:\
+a. `terraform state list` - This will list all the resources recorded in the terraform state file\
+b. `terraform state show` - This will show detailed information of a single reseorce\
+c. `terraform state mv [options] SOURCE DESTINATION` - Used to move items in a tfstste file
+
 
