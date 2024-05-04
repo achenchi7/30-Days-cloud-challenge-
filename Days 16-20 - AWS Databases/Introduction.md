@@ -48,7 +48,7 @@ There are 6 database engines to choose from:
 - Easy to administer
 - Available and durable
 - Highly scalable
-- Fast. Performance-wise
+- Fast in terms of performance
 - Secure
 - Inexpensive
 
