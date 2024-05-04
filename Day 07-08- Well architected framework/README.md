@@ -1,4 +1,4 @@
-# AWS well - architected framework
+# AWS well-architected framework
 
 ### Definition
 To put it simply, the AWS well-architected framework is a collection of best practices and guidelines for designing and operating reliable, secure, efficient, and cost-effective systems in the cloud.
