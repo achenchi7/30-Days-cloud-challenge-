@@ -1,4 +1,4 @@
-I chose to launch a MySQL database on AWS using terraform instead of the conventional management console. The code used is as shown below:
+I chose to launch a MySQL database on AWS using Terraform instead of the conventional management console. The code used is as shown below:
 ```
 provider "aws" {
     access_key = <ACCESS_KEY>
